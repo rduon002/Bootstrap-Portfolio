@@ -47,11 +47,6 @@ p {
     margin-left: 30px;
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
-    margin-left: 15px;
-}
-
 .navbar-nav>li:last-child>a:after {
     content: '';
 }
