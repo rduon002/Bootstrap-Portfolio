@@ -25,7 +25,7 @@ p {
 }
 
 .bg-light {
-    background-color: #555;
+    background-color: #555!important;
 }
 
 .navbar-light .navbar-brand {
@@ -34,7 +34,6 @@ p {
 
 .navbar-brand, .navbar-nav>Li>a {
     color: papayawhip;
-    background: #555;
     font-weight: bold;
 }
 
@@ -45,6 +44,7 @@ p {
 
 .navbar-nav>Li>a:after {
     content: '/';
+    margin-left: 30px;
 }
 
 *, ::after, ::before {
@@ -52,7 +52,7 @@ p {
     margin-left: 30px;
 }
 
-.navbar-nav > li:last-child > a:after {
+.navbar-nav>li:last-child>a:after {
     content: '';
 }
 
@@ -64,7 +64,7 @@ p {
     background: #111;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 980px) {
 .navbar-expand-lg .navbar-nav {
     margin-left: auto;
     }
