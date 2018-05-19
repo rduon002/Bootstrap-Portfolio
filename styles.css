@@ -49,7 +49,7 @@ p {
 
 *, ::after, ::before {
     box-sizing: border-box;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .navbar-nav>li:last-child>a:after {
@@ -154,7 +154,7 @@ p {
     margin-bottom: 2rem;
     left: 0;
     bottom: 0;
-    position: fixed;
+    position: absolute;
     text-align: center;
 }
 
