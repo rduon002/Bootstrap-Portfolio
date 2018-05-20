@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+    background: url("../images/concrete_seamless.png");
+    line-height: 34px;
+    color: #999;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abril Fatface', coursive;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.bg-light {
+    background-color:#777!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand, .navbar-nav>Li>a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-brand>Li>a:hover, .navbar-nav>Li>a:hover {
+    color: papayawhip;
+    font-weight: bold;
+}
+
+.navbar-nav>Li>a:after {
+    content: '/';
+    margin-left: 1rem;
+}
+
+.navbar-nav>li:last-child>a:after {
+    content: '';
+}
+
+.navbar-toggle {
+    background: #777;
+}
+
+.navbar-toggle .icon-bar {
+    background: #777;
+}
+
+/*Home*/
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jumbotron {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.jumbotron h1 {
+    font-size: 120px;
+}
+
+.jumbotron .lead {
+    font-size: 32px;
+}
+ 
+.portfolio-title {
+    padding: 10px 15px 10px 0px;
+    font-weight: bold;
+    color: #999;
+}
+
+/* portfolio page */
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 80%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+  
+  
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #999;
+    color: #777;
+    margin-left: 20px;
+}
+
+.nav-pills a {
+    color: #999;
+}
+
+.portfolio-item {
+    margin-bottom: 10px;
+}
+
+.portfolio-item img {
+    border-radius: 4px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(1000%);
+}
+
+.portfolio-item:hover img {
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+
+.filterable-portfolio {
+    margin-bottom: 20px;
+}
+
+.site-footer {
+    padding: 30px 0;
+    clear: both;
+    text-align: center;
+}
+
+.contact-form {
+    background: #999;
+    color: papayawhip;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+ /*Monitor*/
+@media screen and (max-width: 980px) {
+    .jumbotron h1 {
+        font-size: 72px;
+    }
+    .auth-image {
+        width: 75%;
+    }
+}
+/*Tablet response */
+@media screen and (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+    .jumbotron .lead {
+        font-size: 20px;
+    }    
+}
+
+/*Mobile response */
+@media screen and (max-width: 640px) {
+
+}
+
